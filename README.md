@@ -90,12 +90,16 @@ Each model was evaluated on:
 
 ---
 
-### ✅ How to Run
+## ✅ How to Run
 
-1. Clone the repo
-   `git clone https://github.com/YOUR_USERNAME/drug-classification-ml-evaluation.git`
-2. Open the notebook in Jupyter or Kaggle
-3. Run all cells
+### Option 1 — Run the notebook
+Open: `notebooks/01_drug_classification_models_scalers.ipynb` and run all cells.
+
+### Option 2 — Run as a reproducible script
+```bash
+ pip install -r requirements.txt
+ python scripts/run_experiments.py
+
 
 ---
 
